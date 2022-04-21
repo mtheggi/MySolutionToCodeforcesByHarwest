@@ -1,4 +1,20 @@
 {
+  "AC31133577": {
+    "contest_id": "abc198",
+    "language": "C++ (GCC 9.2.1)",
+    "path": "atcoder\\abc198\\B.cpp",
+    "platform": "AtCoder",
+    "problem_index": "B",
+    "problem_name": "Palindrome with leading zeros",
+    "problem_url": "https://atcoder.jp/contests/abc198/tasks/abc198_b",
+    "submission_id": "AC31133577",
+    "submission_url": "https://atcoder.jp/contests/abc198/submissions/31133577",
+    "tags": [
+      "AtCoder",
+      "*200"
+    ],
+    "timestamp": "Apr/21/2022 12:44"
+  },
   "AC38470910": {
     "contest_id": "dp",
     "language": "C++ (GCC 9.2.1)",
