@@ -1,4 +1,20 @@
 {
+  "CF178285642": {
+    "contest_id": 437,
+    "language": "GNU C++20 (64)",
+    "path": "codeforces\\437\\A.cpp",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "The Child and Homework",
+    "problem_url": "https://codeforces.com/contest/437/problem/A",
+    "submission_id": "CF178285642",
+    "submission_url": "https://codeforces.com/contest/437/submission/178285642",
+    "tags": [
+      "implementation",
+      "*1300"
+    ],
+    "timestamp": "Oct/29/2022 01:48"
+  },
   "CF179893482": {
     "contest_id": 1747,
     "language": "GNU C++20 (64)",
