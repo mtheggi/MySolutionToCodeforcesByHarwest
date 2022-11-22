@@ -1,4 +1,23 @@
 {
+  "CF182139404": {
+    "contest_id": 430,
+    "language": "GNU C++20 (64)",
+    "path": "codeforces\\430\\C.cpp",
+    "platform": "Codeforces",
+    "problem_index": "C",
+    "problem_name": "Xor-tree",
+    "problem_url": "https://codeforces.com/contest/430/problem/C",
+    "submission_id": "CF182139404",
+    "submission_url": "https://codeforces.com/contest/430/submission/182139404",
+    "tags": [
+      "brute force",
+      "data structures",
+      "dfs and similar",
+      "trees",
+      "*1300"
+    ],
+    "timestamp": "Nov/22/2022 16:25"
+  },
   "CF182399110": {
     "contest_id": 104,
     "language": "GNU C++20 (64)",
