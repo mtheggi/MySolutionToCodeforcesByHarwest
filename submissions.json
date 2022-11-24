@@ -1,4 +1,21 @@
 {
+  "CF182399110": {
+    "contest_id": 104,
+    "language": "GNU C++20 (64)",
+    "path": "codeforces\\104\\C.cpp",
+    "platform": "Codeforces",
+    "problem_index": "C",
+    "problem_name": "Cthulhu",
+    "problem_url": "https://codeforces.com/contest/104/problem/C",
+    "submission_id": "CF182399110",
+    "submission_url": "https://codeforces.com/contest/104/submission/182399110",
+    "tags": [
+      "dsu",
+      "trees",
+      "*1500"
+    ],
+    "timestamp": "Nov/24/2022 21:36"
+  },
   "CF182440820": {
     "contest_id": 1760,
     "language": "GNU C++20 (64)",
