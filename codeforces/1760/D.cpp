@@ -35,31 +35,29 @@ const int N = 2e5 +  5  ;
 ll GCD(ll a, ll b) { return (a) ? GCD(b % a, a) : b; }
 ll LCM(ll a, ll b) { return a * b / GCD(a, b); }
 ll fastpow(ll b, ll p) { if (!p) return 1; ll ret = fastpow(b, p >> 1); ret *= ret; if (p & 1) ret *= b; return ret; }
+int n , m  ,zz ;
 int dx[8] ={0 ,0 , 1, -1 , 1, -1 , 1 , -1  };
 int dy[8] ={1,-1, 0 , 0, 1 , -1 , -1 , 1 };
 void bfs(int sn  ){
 }
-void EZ() {    
+void EZ() {
     int n;
     cin >> n;
-    vector<int> v(n);
-    for (int i = 0; i < n; ++i) {
-        cin >> v[i];
-    }
-    if (n == 1) {
-        cout << "YES\n";
-        return;
-    }
-    bool up = 0;
-    for (int i = 1; i < n; ++i) {
-        if (v[i] > v[i - 1])up=1;
-        else if(v[i]<v[i-1]&&up){
-            cout<<"NO\n";
-            return;
+    vector<int> a;
+    for(int i = 0; i < n; i++)
+    {
+        int x;
+        cin >> x;
+        if(i == 0 || x != a.back())
+        {
+            a.push_back(x);
         }
     }
-    cout<<"YES\n";
-    
+    int v= 0;
+    for(int i = 0; i < a.size(); i++)
+        if((i == 0 || a[i-1] > a[i]) && (i == a.size()-1 || a[i] < a[i+1])) v++;
+    if(v == 1)YES ;
+    else NO;
 }
 int main() {
     RunIt;
