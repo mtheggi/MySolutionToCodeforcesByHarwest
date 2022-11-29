@@ -1,4 +1,20 @@
 {
+  "CF183215550": {
+    "contest_id": 278,
+    "language": "GNU C++20 (64)",
+    "path": "codeforces\\278\\C.cpp",
+    "platform": "Codeforces",
+    "problem_index": "C",
+    "problem_name": "Learning Languages",
+    "problem_url": "https://codeforces.com/contest/278/problem/C",
+    "submission_id": "CF183215550",
+    "submission_url": "https://codeforces.com/contest/278/submission/183215550",
+    "tags": [
+      "dsu",
+      "*1400"
+    ],
+    "timestamp": "Nov/29/2022 15:45"
+  },
   "CF183219596": {
     "contest_id": 939,
     "language": "GNU C++20 (64)",
