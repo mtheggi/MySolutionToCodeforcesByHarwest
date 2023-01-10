@@ -1,4 +1,21 @@
 {
+  "CF188813137": {
+    "contest_id": 1775,
+    "language": "GNU C++20 (64)",
+    "path": "codeforces\\1775\\C.cpp",
+    "platform": "Codeforces",
+    "problem_index": "C",
+    "problem_name": "Interesting Sequence",
+    "problem_url": "https://codeforces.com/contest/1775/problem/C",
+    "submission_id": "CF188813137",
+    "submission_url": "https://codeforces.com/contest/1775/submission/188813137",
+    "tags": [
+      "bitmasks",
+      "math",
+      "*1600"
+    ],
+    "timestamp": "Jan/11/2023 00:03"
+  },
   "CF188813173": {
     "contest_id": 1775,
     "language": "GNU C++20 (64)",

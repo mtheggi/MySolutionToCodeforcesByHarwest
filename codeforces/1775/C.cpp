@@ -3,7 +3,7 @@
 using namespace std;
 // Macros
 #define RunIt ios_base::sync_with_stdio(0);cin.tie(0);cout.tie(0);
-#define ll long long
+#define ll unsigned  long long
 #define lld long double
 #define el endl
 #define re return
@@ -64,7 +64,7 @@ void EZ() {
         }else if(z> x ) {
             start = mid + 1;
         }else if (z == x ){
-
+         
             m = mid ;
             r = 1;
             end = mid-1;
