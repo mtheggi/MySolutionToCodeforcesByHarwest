@@ -60,15 +60,20 @@ void EZ(){
     cin >> n ;
     set<int>st ;
     init();
-    int last, a ;
+    int last;
     for(int i = 1 ; i <=n ; i++ ) {
-            cin >> a;
-            if(i == 1 ){st.insert(a); continue;}
+            int a ; cin >> a;
+            if(i == 1 ){st.insert(a);
+                continue;
+            }
             last = *st.rbegin();
             st.insert(a);
             if(last != a ){
                 auto it  = st.find(a);
-                connect(*(++it) ,*it );
+                int a1 = *it;
+                it++ ;
+                int a2 = *it ;
+                connect(a1 ,a2 );
             }
     }
     cout << comp   << el;
