@@ -35,7 +35,7 @@ ll GCD(ll a, ll b) { return (a) ? GCD(b % a, a) : b; }
 ll LCM(ll a, ll b) { return a * b / GCD(a, b); }
 ll fastpow(ll b, ll p) { if (!p) return 1; ll ret = fastpow(b, p >> 1); ret *= ret; if (p & 1) ret *= b; return ret; }
 int spf[N]; // smallest Prime Factor
-///vector<int> primes[N];
+//vector<int> primes[N];
 void sieve()
 { // O(n * (log(log(n)))
     for (int i = 1; i < N; i++)

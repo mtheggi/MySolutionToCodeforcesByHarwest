@@ -1,4 +1,21 @@
 {
+  "CF193776350": {
+    "contest_id": 1766,
+    "language": "GNU C++20 (64)",
+    "path": "codeforces\\1766\\D.cpp",
+    "platform": "Codeforces",
+    "problem_index": "D",
+    "problem_name": "Lucky Chains",
+    "problem_url": "https://codeforces.com/contest/1766/problem/D",
+    "submission_id": "CF193776350",
+    "submission_url": "https://codeforces.com/contest/1766/submission/193776350",
+    "tags": [
+      "math",
+      "number theory",
+      "*1600"
+    ],
+    "timestamp": "Feb/16/2023 02:14"
+  },
   "CF193776749": {
     "contest_id": 1766,
     "language": "GNU C++20 (64)",
