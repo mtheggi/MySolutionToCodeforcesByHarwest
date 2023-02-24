@@ -1,4 +1,21 @@
 {
+  "CF194772704": {
+    "contest_id": 545,
+    "language": "GNU C++20 (64)",
+    "path": "codeforces\\545\\C.cpp",
+    "platform": "Codeforces",
+    "problem_index": "C",
+    "problem_name": "Woodcutters",
+    "problem_url": "https://codeforces.com/contest/545/problem/C",
+    "submission_id": "CF194772704",
+    "submission_url": "https://codeforces.com/contest/545/submission/194772704",
+    "tags": [
+      "dp",
+      "greedy",
+      "*1500"
+    ],
+    "timestamp": "Feb/24/2023 13:22"
+  },
   "CF194935091": {
     "contest_id": 1789,
     "language": "GNU C++20 (64)",
