@@ -38,32 +38,32 @@ ll fastpow(ll b, ll p) { if (!p) return 1; ll ret = fastpow(b, p >> 1); ret *= r
 
 ll n ,m , a , b  ;
 
-int interval[N];
-int freq[N];
+ll llerval[N];
+ll freq[N];
 bool vis[N];
 void EZ(){
     cin >> n >> m ;
-    for(int i =0 ;i <= (n+m +2 ) ; i++) {interval[i] =-1 ; freq[i] =0  ; vis[i] =0 ; }
-    vector<int> v(n+1) ;
-    for(int i =1 ;i <= n ; i++) {cin >> v[i];   vis[v[i]]  = 1 ; interval[v[i]] =0 ;  }
-    for(int i =1;i <= m ;  i++) {
+    for(ll i =0 ;i <= (n+m +2 ) ; i++) {llerval[i] =-1 ; freq[i] =0  ; vis[i] =0 ; }
+    vector<ll> v(n+1) ;
+    for(ll i =1 ;i <= n ; i++) {cin >> v[i];   vis[v[i]]  = 1 ; llerval[v[i]] =0 ;  }
+    for(ll i =1;i <= m ;  i++) {
         cin >> a >> b;
         if (v[a] != b)
         {       vis[b] = 1;
-                freq[v[a]] += (i - interval[v[a]]);
-                interval[b] = i;
-                interval[v[a]] = -1;
+                freq[v[a]] += (i - llerval[v[a]]);
+                llerval[b] = i;
+                llerval[v[a]] = -1;
                 v[a]= b;
         }
     }
-    for(int  i =1 ;i <= (n+m) ; i++ ){
-          if( interval[i] != -1  && vis[i]) {
-            freq[i] +=(m+1 - interval[i]);
+    for(ll i =1 ;i <= (n+m) ; i++ ){
+          if( llerval[i] != -1  && vis[i]) {
+            freq[i] +=(m+1 - llerval[i]);
           }
     }
-    ll sum =(m*(m+1) * 1ll) /2  , ans =0 ;
-    for(int  i =1 ;i <= (n+m) ; i++){
-            ans +=(sum - ((m - 0ll-  freq[i] )* (m-freq[i]+1 + 0ll )) /2);
+    ll sum =(m*(m+1)) /2  , ans =0 ;
+    for(ll i =1 ;i <= (n+m) ; i++){
+            ans +=(sum - ((m - freq[i] )* (m-freq[i]+1)) /2);
     }
     cout << ans << el;
 }
@@ -78,7 +78,7 @@ int main() {
     // freopen("Error", "w", stderr);
 #endif
 
-    int tc =1 ;
+    ll tc =1 ;
     cin >> tc;
     while(tc--){
         EZ();
