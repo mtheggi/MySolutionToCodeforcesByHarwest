@@ -1,4 +1,20 @@
 {
+  "CF195977752": {
+    "contest_id": 1800,
+    "language": "GNU C++20 (64)",
+    "path": "codeforces\\1800\\C1.cpp",
+    "platform": "Codeforces",
+    "problem_index": "C1",
+    "problem_name": "Powering the Hero (easy version)",
+    "problem_url": "https://codeforces.com/contest/1800/problem/C1",
+    "submission_id": "CF195977752",
+    "submission_url": "https://codeforces.com/contest/1800/submission/195977752",
+    "tags": [
+      "data structures",
+      "greedy"
+    ],
+    "timestamp": "Mar/04/2023 16:02"
+  },
   "CF195977781": {
     "contest_id": 1800,
     "language": "GNU C++20 (64)",
